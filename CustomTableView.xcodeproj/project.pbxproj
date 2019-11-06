@@ -12,6 +12,8 @@
 		AC5A516223729F0B004572C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5A516023729F0B004572C2 /* Main.storyboard */; };
 		AC5A516423729F14004572C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC5A516323729F14004572C2 /* Assets.xcassets */; };
 		AC5A516723729F14004572C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5A516523729F14004572C2 /* LaunchScreen.storyboard */; };
+		AC5A51712372A433004572C2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5A51702372A433004572C2 /* TableViewCell.swift */; };
+		AC5A51732372A7BD004572C2 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5A51722372A7BD004572C2 /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		AC5A516323729F14004572C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC5A516623729F14004572C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC5A516823729F14004572C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC5A51702372A433004572C2 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		AC5A51722372A7BD004572C2 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				AC5A516323729F14004572C2 /* Assets.xcassets */,
 				AC5A516523729F14004572C2 /* LaunchScreen.storyboard */,
 				AC5A516823729F14004572C2 /* Info.plist */,
+				AC5A51702372A433004572C2 /* TableViewCell.swift */,
+				AC5A51722372A7BD004572C2 /* DataModel.swift */,
 			);
 			path = CustomTableView;
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC5A51712372A433004572C2 /* TableViewCell.swift in Sources */,
+				AC5A51732372A7BD004572C2 /* DataModel.swift in Sources */,
 				AC5A515F23729F0B004572C2 /* ViewController.swift in Sources */,
 				AC5A515D23729F0B004572C2 /* AppDelegate.swift in Sources */,
 			);
